@@ -1,0 +1,168 @@
+body{
+    background-color: rgb(76, 84, 105);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0em;
+}
+
+header{
+    background-image: url(./Imagenes/logo.png);
+    background-position: right bottom ;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    display:flex;
+    width:100%;
+    height: 20%; 
+}
+
+/* Información de contacto*/
+.contacto{
+    float:left;
+    font-weight: lighter;
+    font-size: 1em;
+    padding-left: 2em;
+    padding-top: 5.5em;  
+}
+
+/*Iconos de la informacion de contacto*/
+.logos{
+    height:1em;
+    padding-bottom: 0%;
+}
+
+/*Pótulo de la cabecera*/    
+.rotulo{
+    clear:left;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em; 
+    font-weight: lighter;
+}
+h3{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+nav{
+    display:flex;
+    background-color: #191919;
+    font-weight: bold;
+    width: 100%;
+    height: 5%;
+    font-size: 1.25em;
+    text-align: center;  
+    font-weight: lighter;  
+}
+nav>ul{
+    list-style: none;
+    width: 100%; 
+    margin: 0%;
+}
+nav>ul>li{
+    display: inline-block;
+    text-decoration: none;
+    width: 24%; 
+    padding-top: 0.5em; 
+    padding-bottom: 0.5em;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color:#FFFFFF;
+    text-decoration: none;
+}
+
+/*Caja del Navegador para saber que información se está visualizando*/
+.menuSeleccionado{
+    background-color: rgb(76, 84, 105) ;
+    height: 100%;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 65%;
+    font-size: 1rem; 
+}
+
+section{
+    background-color: #CED0CE;
+    color: rgb(76, 84, 105);
+    padding-left: 1%;
+    padding-top: 1%;
+    line-height: 5vh;
+    width: 80%; 
+}
+section>ul>li{
+    text-align: justify;
+    width: 95%;
+}
+
+/*Títulos de la sección de proyectos*/
+.proyectos{
+    text-align: center;
+}
+
+/*Imagenes de la sección de proyectos*/
+.proyectos>img{
+    width: 25%;
+    margin-right: 3em;  
+}
+
+aside{
+    background-color:#F6AE2D;
+    color:#191919;
+    width: 20%;
+    text-align: justify;
+    line-height: 3vh;
+    padding-left: 1%;
+    padding-right: 1%;  
+}
+
+aside>h4{
+    margin-bottom: 0em;
+}
+
+aside>p{
+    width: 90%;
+    margin-top: 0em;
+}
+
+aside>ul{
+    padding-left: 0%;
+    margin-top: 0em;
+}
+/*Barra de progreso - Fondo*/
+.barraFondo{
+    height: 1em;
+    width: 50%;
+    background-color: #CED0CE;
+    border-radius: 1em;
+}
+
+/*Barra de progreso - Nivel*/
+.barra{
+    height: 1em;
+    background-color: rgb(76, 84, 105);
+    border-radius: 1em;
+}
+
+footer{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+footer>img{
+    width: 10%;
+    padding-top: .25em;
+}
+nav a:hover{/*Para que el link cambie cuando se pase el cursor por encima*/
+    color:#F6AE2D;
+}
